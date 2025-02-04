@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ac42c3b1f7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="home">
+    <div class="startpage pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 shadow-lg">
+                    <div class="cd">
+                        <h1 class="text-light hd">Assessment</h1>
+                        <div class="rules" id="rulesCon"></div>
+                        <div class="text-center m-3">
+                            <button class="btn btn-info" id="startBtn">Start</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+  <div id="qns">
+    <div class="ques1 pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="nav d-flex flex-row justify-content-between">
+              <h1 class="title-class">Question <span id="questionNumber" class="text-info"></span></h1>
+              <p class="title-class">Timeleft</p>
+            </div>
+            <div class="col-12">
+              <div class="question" id="currentQuestion"></div>
+            </div>
+            <div class="col-12">
+              <ul class="options" id = "optionsCont">
+
+              </ul>
+            </div>
+            <div class="d-flex justify-content-between mt-3">
+              <button class="btn btn-secondary" id="prevBtn">Previous</button>
+              <button class="btn btn-primary" id="nextBtn">Next</button>
+              <button class="btn btn-danger" id="submitBtn">submit</button>   
+              <p id="para"></p>             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <div id="res">
+    <div class="res pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div id="rescon" class="">
+
+            </div>            
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+
+    <script src="script.js"></script>
+</body>
+</html>
