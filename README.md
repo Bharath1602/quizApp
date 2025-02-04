@@ -1,5 +1,5 @@
 # **Quiz App**
-**Hosted link:** [Quiz App](https://bharath1602.github.io/quizApp/)  
+**Hosted link:** (https://bharath1602.github.io/quizApp/)  
 📌 **Note:** As the server responds slowly, please wait for a minute or retry loading the link for the first time.
 
 ---
